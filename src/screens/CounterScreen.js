@@ -10,7 +10,7 @@ const CounterScreen = () => {
         title="Increase"
         onPress={() => {
           setCounter(counter + 1)
-          // console.log(counter)
+          console.log(counter)
         }}
       />
       <Button
